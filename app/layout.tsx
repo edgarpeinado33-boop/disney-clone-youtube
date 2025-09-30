@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import Header from "@/components/ui/Header";
-import { ThemeProvider } from "@/components/ui/ThemeProvider";
+import Header from "@/components/Header";
+import { ThemeProvider } from "@/components/ThemeProvider";
 export const metadata: Metadata = {
   title: "Disney+ Clone",
   description: "For Educational purposes",
@@ -22,7 +22,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-        <Header />
+         {/*<Header />*/}
         {children} 
      </ThemeProvider>
        </body> 
